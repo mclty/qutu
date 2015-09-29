@@ -12,7 +12,7 @@ body a{
 	text-decoration:none;
 }
 .banner{
-	background:url(../images/banner.jpg) no-repeat 0px 0px  ;
+	background:url(../images/banner.jpg) no-repeat 0px 0px;
 }
 .logo img{
 	position:absolute;
@@ -31,6 +31,9 @@ nav a{
 	margin-right:60px;
 	font-weight:800;
 }
+nav a:hover{
+	color:#FFCC33;
+}
 nav{
 	position:absolute;
 	top:30px;
@@ -46,32 +49,34 @@ nav{
 }
 .banner-text a{
 	font-size:20px;
-	font-weight:600;
+	font-weight:400;
 	color:#ffffff;
 	display:block;
-	background-color:#FF6600;
+	background-color:#FF9900;
 	width:150px;
-	margin:130px auto auto auto; 
-	padding:5px 5px;
+	margin:100px auto 0px auto; 
+	padding:15px 8px;
+	border-radius: 30px;
+	box-shadow: 1px 1px 1px rgba(0,0,0, .29), inset 1px 1px 1px rgba(255,255,255, .44);
+	transition: all 0.15s ease;
 }
-.welcome{
-	margin:240px 100px 0 100px; 
+.banner-text a:hover{
+	font-weight:700;
+	font-size:21px;
 }
-.container{
-	margin:50px 70px;
+.paragraph{
+	margin:300px 100px 0 100px; 
 }
-h2{
-	font-size:30px;
-	text-align:center;
-	clear:both;
-}
-.welcome p{
+.paragraph p{
 	font-size:20px;
 	line-height:40px;
 	color:#aaaaaa;
 	margin-bottom:60px;
 }
-.container p{
+.what{
+	margin:80px 70px;
+}
+.what p{
 	width:500px;
 	font-size:20px;
 	line-height:40px;
@@ -80,22 +85,72 @@ h2{
 	margin-bottom:60px;
 	float:left;
 }
+h2{
+	font-size:30px;
+	text-align:center;
+	clear:both;
+}
 .img-left{
 	height:400px;
 	width:540px;
 	float:left;
 	margin:30px 80px 50px 30px;
-	
-	
 }
-.footer p{
-	font-size:16px;
-	margin:0px 0;
-	text-align:center;
-	font-weight:500;
+.team{
+	margin:100px 100px 0 100px;
+}
+h4{
+	font-size:20px;
+}
+.team p{
+	font-size:20px;
+	line-height:40px;
+	color:#aaaaaa;
+	margin-bottom:60px;
+	width:250px;
+}
+.p1,.p2,.p3,.p4{
+	float:left;
+	margin-right:30px;
+	margin-top:-10px;
+}
+.footer{
+	color:#aaaaaa;
+    background: #232323;
+	height:260px;
 	clear:both;
+	padding:30px 80px 0 80px;
 }
-.footer {
-	margin-top:80px;
+.footer a{
+	color:#aaaaaa;
+	text-decoration:none;
 }
+.footer ul{
+	list-style-type:none;
+	margin:0;
+	padding:0;
+}
+.footer li{
+	margin-bottom:10px;
+}
+.footer h3{
+	color:#ffffff;
+}
+.navigation,.members,.touch{
+	float:left;
+	margin-right:200px;
+	margin-bottom:40px;
+}
+.last{
+	clear:both;
+	text-align:center;
+}
+.footer-logo img{
+	position:absolute;
+	height:100px;
+	width:250px;
+	margin-left:-60px;
+	margin-top:50px;
+}
+
 
